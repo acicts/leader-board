@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Product app</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+  <div id="demo" class="container">
+  <input v-model="search" class="form-control" placeholder="Filter users by name">
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th v-repeat="column: columns">
+          <a href="#" v-on="click: sortBy(column)" v-class="active: sortKey == column">
+            {{ column | capitalize }}
+          </a>
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr v-repeat="users | filterBy search | orderBy sortKey reverse">
+        <td>{{ name }}</td>
+        <td>{{ grade }}</td>
+        <td>{{ score }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/0.12.16/vue.min.js  "></script>
+  <script src="main.js"></script>
+</body>
+</html>
