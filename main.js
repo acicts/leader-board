@@ -10,8 +10,6 @@ new Vue({
 
     columns: ['name', 'grade', 'score' ],
 
-    newUser: {},
-
     users: [
       { name: 'John', score: 50, grade: 9, userId:'asd123' },
       { name: 'Jane', score: 22, grade: 9, userId:'asd123' },
@@ -30,11 +28,6 @@ new Vue({
       this.reverse = (this.sortKey == sortKey) ? ! this.reverse : false;
 
       this.sortKey = sortKey;
-    },
-
-    addUser: function() {
-      this.users.push(this.newUser);
-      this.newUser = {};
     }
   }
 });
