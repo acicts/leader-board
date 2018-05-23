@@ -111,9 +111,9 @@
 
                         <div class="card-text">
                             <h3 class="count pt-3 pb-3 mbr-fonts-style display-2">
-                                  20</h3>
+                                  24</h3>
                             <h4 class="mbr-content-title mbr-bold mbr-fonts-style display-4">Tasks are released<br></h4>
-                            <p class="mbr-content-text mbr-fonts-style display-7">20 Tasks are released for now from Design, Code, Explore sectors.</p>
+                            <p class="mbr-content-text mbr-fonts-style display-7">24 Tasks are released for now from Design, Code, Explore sectors.</p>
                         </div>
                     </div>
                 </div>
@@ -126,9 +126,9 @@
                         </div>
                         <div class="card-text">
                             <h3 class="count pt-3 pb-3 mbr-fonts-style display-2">
-                                  113</h3>
+                                  116</h3>
                             <h4 class="mbr-content-title mbr-bold mbr-fonts-style display-4">Competitors are registered</h4>
-                            <p class="mbr-content-text mbr-fonts-style display-7">113 competitiors have registered for this moment.</p>
+                            <p class="mbr-content-text mbr-fonts-style display-7">116 competitiors have registered for this moment.</p>
                         </div>
                     </div>
                 </div>
@@ -139,11 +139,11 @@
                             <span class="mbr-iconfont mbri-cust-feedback"></span>
                         </div>
                         <div class="card-text">
-                            <h3 class="count pt-3 pb-3 mbr-fonts-style display-2">3</h3>
+                            <h3 class="count pt-3 pb-3 mbr-fonts-style display-2">2</h3>
                             <h4 class="mbr-content-title mbr-bold mbr-fonts-style display-4">
                                 Events are going on now</h4>
                             <p class="mbr-content-text mbr-fonts-style display-7">
-                                    3 Events have started now and competitors are making their projects.</p>
+                                    2 Events have started now and competitors are making their projects.</p>
                         </div>
                     </div>
                 </div>
@@ -202,6 +202,8 @@
                             <td class="body-item mbr-fonts-style display-7">{{ score }}</td>
                             <td class="body-item mbr-fonts-style display-7">{{ tasks }}</td>
                             <td class="body-item mbr-fonts-style display-7">{{ favourite }}</td>
+                            <td class="body-item mbr-fonts-style display-7">{{ rank }}</td>
+                            <td class="body-item mbr-fonts-style display-7">{{ awards }}</td>
                           </tr>
                         </tbody>
               
@@ -277,11 +279,72 @@
                       </div>
                     </div>
                 </section>
-
+                <section class="section-table cid-qOg6pNZ7Vm" id="table1-40">
+                    <div class="container align-center">
+                            <h2 class="mbr-section-title pb-3 mbr-fonts-style display-2">
+                                   Winners of the Events
+                            </h2>
+                            <h3 class="mbr-section-subtitle pb-5 mbr-fonts-style display-5">
+                                    Competitors who won the Events (All the winners get points as deatils on the events' page.)</h3>
+                                    <div class="container">
+                                            <div id="demo" class="container">
+                                      <table class="table table-striped" cellspacing="0">
+                                           
+                                        <thead>
+                                                    <tr class="table-heads">
+                                                      <th>
+                                                        Event and Categoery
+                                                      </th>
+                                                      <th>
+                                                            Winner
+                                                          </th>
+                                                          <th>
+                                                            Grade
+                                                          </th>
+                                                    </tr>
+                                                  </thead>
+                                                      
+                                        <tbody>
+                                                <tr v-repeat="tests | filterBy search | orderBy sortKey reverse">
+                                                        <td class="body-item mbr-fonts-style display-7">Still Graphics 2D 10-11</td>
+                                                        <td class="body-item mbr-fonts-style display-7">Chamod Nilushanka Perera</td>
+                                                        <td class="body-item mbr-fonts-style display-7">11</td>
+                                                      </tr>
+                                                      <tr v-repeat="tests | filterBy search | orderBy sortKey reverse">
+                                                        <td class="body-item mbr-fonts-style display-7">Still Graphics 3D 6-9</td>
+                                                        <td class="body-item mbr-fonts-style display-7">Inuka Sanudaya Batawala</td>
+                                                        <td class="body-item mbr-fonts-style display-7">7</td>
+                                                    </tr>
+                                                      <tr v-repeat="tests | filterBy search | orderBy sortKey reverse">
+                                                        <td class="body-item mbr-fonts-style display-7">Still Graphics 3D 10-11</td>
+                                                        <td class="body-item mbr-fonts-style display-7">Heliya Nithira Suriya Bandara</td>
+                                                        <td class="body-item mbr-fonts-style display-7">11</td>
+                                                      </tr>
+                                                      <tr v-repeat="tests | filterBy search | orderBy sortKey reverse">
+                                                        <td class="body-item mbr-fonts-style display-7">Motion Graphics 2D 10-11</td>
+                                                        <td class="body-item mbr-fonts-style display-7">M.M.A. Pahan Samudika Abhayawardhane</td>
+                                                        <td class="body-item mbr-fonts-style display-7">11</td>
+                                                      </tr>
+                                                      <tr v-repeat="tests | filterBy search | orderBy sortKey reverse">
+                                                        <td class="body-item mbr-fonts-style display-7">Motion Graphics 3D 10-11</td>
+                                                        <td class="body-item mbr-fonts-style display-7">Benul Chenuka Wijwrathne</td>
+                                                        <td class="body-item mbr-fonts-style display-7">11</td>
+                                                    </tr>
+                                                    </tbody>
+                                          
+                                          
+                                        <tr> 
+                                             </table>
+                                    </div>
+                                      
+                                    </div>
+                                  </div>
+                                </div>
+                            </section>
                 <section class="mbr-section article content1 cid-qNHD9vCC9X"  id="content1-3w">
                         <div class="container">
                         <div class="media-container-row">
-                            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">The leaderboard was last updated on 20th of May at 11.00 A.M. Data might have been changed since then. Here is the all points list of leaderboards <a href="https://goo.gl/vsXjjw">https://goo.gl/vsXjjw</a>. If there is any mistake please contatc us.</div>
+                            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">The leaderboard was last updated on 23th of May at 7:00 P.M. Data might have been changed since then. Here is the all points list of leaderboards <a href="https://goo.gl/vsXjjw">https://goo.gl/vsXjjw</a>. If there is any mistake please contatc us.</div>
                         </div>
                     </div>
                 </section>
@@ -303,7 +366,7 @@
                         <p class="mb-4 foot-title mbr-fonts-style display-7"><strong>
                             RECENT NEWS
                         </strong></p>
-                        <p class="mbr-text mbr-fonts-style foot-text display-7"></p><p>&gt; Competition has started now.<br>&gt;&nbsp;The events have started.</p>
+                        <p class="mbr-text mbr-fonts-style foot-text display-7"></p><p>&gt; Competition has started now.<br>&gt;&nbsp;Still & Motion Graphics Event is finished.<br>&gt;&nbsp;Other events are going.<br>&gt;&nbsp;The fourth online test will be held on 25th-26th of May.</p>
       
     
                     </div>
