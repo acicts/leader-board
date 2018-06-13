@@ -12,55 +12,56 @@ new Vue({
 
     users: [{
         name: 'H. Jayasahan Hansana',
-        total: 104,
-        points: "104+0+0",
+        total: 184,
+        points: "154+30+0",
         grade: 10,
         userId: '100135885',
-        tasks: '7',
+        tasks: '10',
         favourite: 'Design',
-        rank: '13'
+        rank: '13',
+        awards: 'ARDROBERRY-1st'
       },
       {
         name: 'Janidu Arinda Fernando',
-        total: 159,
-        points: "159+0+0",
+        total: 220,
+        points: "220+0+0",
         grade: 9,
         userId: '090741612',
-        tasks: '11',
-        favourite: 'Explore',
-        rank: '7'
+        tasks: '15',
+        favourite: 'Design/Explore',
+        rank: '10'
       },
       {
         name: 'Heliya Nithira Suriya Bandara',
-        total: 237,
-        points: "92+120+25",
+        total: 412,
+        points: "267+120+25",
         grade: 11,
         userId: '111101615',
-        tasks: '6',
+        tasks: '16',
         favourite: 'Design',
-        rank: '4',
+        rank: '1',
         awards: 'Still-Graphics-3D|10-11 Test4|9-11'
       },
       {
         name: 'W.M. Janiru Damsath Bandara',
-        total: 98,
-        points: "48+0+50",
+        total: 251,
+        points: "201+0+50",
         grade: 7,
         userId: '070839299',
-        tasks: '3',
-        favourite: 'Code',
-        rank: '15',
+        tasks: '12',
+        favourite: 'Design/Explore',
+        rank: '8',
         awards: 'Test4|6-8 Test5|6-8'
       },
       {
         name: 'T. Nethula Roshane Peiris',
-        total: 138,
-        points: "88+0+50",
+        total: 202,
+        points: "152+0+50",
         grade: 7,
         userId: '070838256',
-        tasks: '6',
-        favourite: 'Code',
-        rank: '9',
+        tasks: '10',
+        favourite: 'Code/Design',
+        rank: '11',
         awards: 'Test4|6-8 Test5|6-8'
       },
       {
@@ -71,7 +72,7 @@ new Vue({
         userId: '091030109',
         tasks: '6',
         favourite: 'All Rounder',
-        rank: '16'
+        rank: '21'
       },
       {
         name: 'H. Sithira Ransara Seneviratne',
@@ -81,7 +82,7 @@ new Vue({
         userId: '080223301',
         tasks: '1',
         favourite: 'Design',
-        rank: '28'
+        rank: '33'
       },
       {
         name: 'Senel Demintha',
@@ -91,17 +92,17 @@ new Vue({
         userId: '110214810',
         tasks: '2',
         favourite: 'Design/Explore',
-        rank: '18',
+        rank: '23',
         awards: 'Test1'
       },
       {
         name: 'Banuja Nethusara Dehigaspage',
-        total: 43,
-        points: "18+0+25",
+        total: 61,
+        points: "36+0+25",
         grade: 8,
         userId: '080830456',
-        tasks: '1',
-        favourite: 'Design',
+        tasks: '2',
+        favourite: 'Design/Explore',
         rank: '22',
         awards: 'Test5|6-8'
       },
@@ -112,70 +113,71 @@ new Vue({
         grade: 7,
         userId: '070516651',
         tasks: '8',
-        favourite: 'Explore',
-        rank: '1',
+        favourite: 'All Rounder',
+        rank: '4',
         awards: 'Still-Graphics-3D|6-9 Test2|6-8 Test4|6-8 Test5|6-8'
       },
       {
         name: 'J.B. Bihandu Semal',
         total: 124,
-        points: "124+0+0",
+        points: "196+0+0",
         grade: 9,
         userId: '091008008',
-        tasks: '8',
+        tasks: '13',
         favourite: 'Design',
-        rank: '10'
+        rank: '12'
       },
       {
         name: 'J.A. Davindu Reshan',
-        total: 141,
-        points: "116+0+25",
+        total: 354,
+        points: "329+0+25",
         grade: 11,
         userId: '111147704',
-        tasks: '8',
-        favourite: 'Design',
-        rank: '8',
+        tasks: '22',
+        favourite: 'Design/Explore',
+        rank: '3',
         awards: 'Test3|9-11'
       },
       {
         name: 'Chamod Nilushanka Perera',
-        total: 321,
-        points: "176+120+25",
+        total: 358,
+        points: "213+120+25",
         grade: 11,
         userId: '111141143',
-        tasks: '11',
+        tasks: '13',
         favourite: 'All Rounder',
         rank: '2',
         awards: 'Still-Graphics-2D|10-11 Test4|9-11'
       },
       {
         name: 'Nayantha Nethsara Senavithilaka',
-        total: 49,
-        points: "49+0+0",
+        total: 123,
+        points: "63+60+0",
         grade: 10,
         userId: '101039302',
-        tasks: '3',
-        favourite: 'Design',
-        rank: '20'
+        tasks: '4',
+        favourite: 'Design Explore',
+        rank: '16',
+        awards: 'ARDROBERRY-2nd'
       },
       {
         name: 'E.A. Chamuthu Megha Malhara Edirisooriya',
-        total: 200,
-        points: "175+0+25",
+        total: 250,
+        points: "225+0+25",
         grade: 10,
         userId: '100148900',
-        tasks: '11',
+        tasks: '14',
         favourite: 'Design',
-        rank: '6',
+        rank: '9',
         awards: 'Test5|9-11'
       },
       {
         name: 'T. Didula Dinoj Pieris',
-        total: 15,
-        points: "15+0+0",
+        total: 42,
+        points: "42+0+0",
         grade: 9,
         userId: '090125136',
-        tasks: '1',
+        tasks: '3',
         favourite: 'Design',
         rank: '25'
       },
@@ -187,38 +189,38 @@ new Vue({
         userId: '080835791',
         tasks: '1',
         favourite: 'Design',
-        rank: '25'
+        rank: '31'
       },
       {
         name: 'M.M.A. Pahan Samudika Abhayawardhane',
-        total: 215,
-        points: "70+120+25",
+        total: 252,
+        points: "107+120+25",
         grade: 11,
         userId: '110418733',
-        tasks: '4',
+        tasks: '6',
         favourite: 'Design',
-        rank: '5',
+        rank: '7',
         awards: 'Motion-Graphics-2D|10-11 Test3|9-11'
       },
       {
         name: 'K.A. Samiru Thisaraka De Silva',
-        total: 102,
-        points: "102+0+0",
+        total: 140,
+        points: "140+0+0",
         grade: 11,
         userId: '110842334',
-        tasks: '7',
-        favourite: 'Design',
-        rank: '14'
+        tasks: '9',
+        favourite: 'Explore/Design',
+        rank: '15'
       },
       {
         name: 'Benul Chenuka Wijwrathne',
-        total: 252,
-        points: "82+120+50",
+        total: 287,
+        points: "117+120+50",
         grade: 11,
         userId: '110427637',
-        tasks: '5',
+        tasks: '7',
         favourite: 'Code/Design',
-        rank: '3',
+        rank: '6',
         awards: 'Motion-Grphics-3D|10-11 Test2|9-11 Test4|9-11'
       },
       {
@@ -229,18 +231,18 @@ new Vue({
         userId: '061142574',
         tasks: '0',
         favourite: '---',
-        rank: '19',
+        rank: '24',
         awards: 'Test2|6-8 Test5|6-8'
       },
       {
         name: 'Nithika Senaweera',
-        total: 123,
-        points: "123+0+0",
+        total: 143,
+        points: "143+0+0",
         grade: 10,
         userId: '100520368',
-        tasks: '8',
+        tasks: '9',
         favourite: 'Explore',
-        rank: '11'
+        rank: '14'
       },
       {
         name: 'Kavindu Pabasara Panditharatne',
@@ -249,8 +251,8 @@ new Vue({
         grade: 10,
         userId: '101043545',
         tasks: '7',
-        favourite: 'Design',
-        rank: '12'
+        favourite: 'All Rounder',
+        rank: '20'
       },
       {
         name: 'Osanda Samaratunge',
@@ -260,17 +262,18 @@ new Vue({
         userId: '111134290',
         tasks: '1',
         favourite: 'Design',
-        rank: '24'
+        rank: '29'
       },
       {
         name: 'S. Chandupa Yasas Silva',
-        total: 49,
-        points: "49+0+0",
+        total: 119,
+        points: "69+0+50",
         grade: 10,
         userId: '100944124',
-        tasks: '3',
-        favourite: 'Code/Design',
-        rank: '20'
+        tasks: '4',
+        favourite: 'All Rounder',
+        rank: '19',
+        awards: 'Final-Test|9-11'
       },
       {
         name: 'Dulaj Bandara Weerakoon',
@@ -280,28 +283,80 @@ new Vue({
         userId: '1104107222',
         tasks: '1',
         favourite: 'Code',
-        rank: '27'
+        rank: '32'
       },
       {
         name: 'K.W. Sanithu Hasmal Kudaliyana',
         total: 25,
-        points: "0+0+25",
+        points: "45+0+75",
         grade: 8,
         userId: '080119696',
-        tasks: '0',
-        favourite: '---',
-        rank: '23',
-        awards: 'Test3|6-8'
+        tasks: '3',
+        favourite: 'Design',
+        rank: '17',
+        awards: 'Test3|6-8 Final-Test|6-8'
       },
       {
         name: 'L. Gothira Sathnindu Mendis',
-        total: 73,
-        points: "73+0+0",
+        total: 294,
+        points: "244+0+50",
         grade: 9,
         userId: '090930522',
-        tasks: '5',
-        favourite: 'Design',
-        rank: '17'
+        tasks: '16',
+        favourite: 'Explore',
+        rank: '5',
+        awards: 'Final-Test|9-11'
+      },
+      {
+        name: 'J.A. Gamitha Kalsara Jayalath',
+        total: 18,
+        points: "18+0+0",
+        grade: 9,
+        userId: '090128142',
+        tasks: '1',
+        favourite: 'Code',
+        rank: '29',
+      },
+      {
+        name: 'W.D. Upek Kasun Akalanka',
+        total: 36,
+        points: "36+0+0",
+        grade: 10,
+        userId: '101136501',
+        tasks: '2',
+        favourite: 'Code Design',
+        rank: '26'
+      },
+      {
+        name: 'Samuditha Garusinha',
+        total: 28,
+        points: "28+0+0",
+        grade: 9,
+        userId: '091029510',
+        tasks: '2',
+        favourite: 'Code',
+        rank: '27',
+      },
+      {
+        name: 'M.D. Chamod Madushan Gunathilaka',
+        total: 120,
+        points: "0+120+0",
+        grade: 10,
+        userId: '1007826',
+        tasks: '-',
+        favourite: '---',
+        rank: '17',
+        awards: 'ARDOBERRY-1st'
+      },
+      {
+        name: 'Isuka Daniru Buddima Pussewela',
+        total: 20,
+        points: "20+0+0",
+        grade: 11,
+        userId: '111116527',
+        tasks: '1',
+        favourite: 'Explore',
+        rank: '28'
       },
     ]
   },
