@@ -8,7 +8,7 @@ new Vue({
 
     search: '',
 
-    columns: ['name', 'grade', 'total', 'points', 'tasks', 'favourite', 'rank', 'awards'],
+    columns: ['name', 'grade', 'total', 'points', 'tasks', 'favourite', 'rank'],
 
     users: [{
         name: 'H. Jayasahan Hansana',
@@ -18,8 +18,7 @@ new Vue({
         userId: '100135885',
         tasks: '11',
         favourite: 'Design',
-        rank: '10',
-        awards: 'ARDROBERRY-1st'
+        rank: '10'
       },
       {
         name: 'Janidu Arinda Fernando',
@@ -39,8 +38,7 @@ new Vue({
         userId: '111101615',
         tasks: '17',
         favourite: 'Design',
-        rank: '1',
-        awards: 'Still-Graphics-3D|10-11 Test4|9-11'
+        rank: '1'
       },
       {
         name: 'W.M. Janiru Damsath Bandara',
@@ -50,8 +48,7 @@ new Vue({
         userId: '070839299',
         tasks: '15',
         favourite: 'Design',
-        rank: '8',
-        awards: 'Test4|6-8 Test5|6-8'
+        rank: '8'
       },
       {
         name: 'T. Nethula Roshane Peiris',
@@ -61,8 +58,7 @@ new Vue({
         userId: '070838256',
         tasks: '10',
         favourite: 'Code/Design',
-        rank: '13',
-        awards: 'Test4|6-8 Test5|6-8'
+        rank: '13'
       },
       {
         name: 'Thulina Dinsara Perera',
@@ -92,8 +88,7 @@ new Vue({
         userId: '110214810',
         tasks: '2',
         favourite: 'Design/Explore',
-        rank: '24',
-        awards: 'Test1'
+        rank: '24'
       },
       {
         name: 'Banuja Nethusara Dehigaspage',
@@ -114,8 +109,7 @@ new Vue({
         userId: '070516651',
         tasks: '8',
         favourite: 'All Rounder',
-        rank: '4',
-        awards: 'Still-Graphics-3D|6-9 Test2|6-8 Test4|6-8 Test5|6-8'
+        rank: '4'
       },
       {
         name: 'J.B. Bihandu Semal',
@@ -135,8 +129,7 @@ new Vue({
         userId: '111147704',
         tasks: '23',
         favourite: 'Design',
-        rank: '2',
-        awards: 'Test3|9-11'
+        rank: '2'
       },
       {
         name: 'Chamod Nilushanka Perera',
@@ -146,8 +139,7 @@ new Vue({
         userId: '111141143',
         tasks: '15',
         favourite: 'Design/Explore',
-        rank: '3',
-        awards: 'Still-Graphics-2D|10-11 Test4|9-11'
+        rank: '3'
       },
       {
         name: 'Nayantha Nethsara Senavithilaka',
@@ -157,8 +149,7 @@ new Vue({
         userId: '101039302',
         tasks: '6',
         favourite: 'All Rounder',
-        rank: '14',
-        awards: 'ARDROBERRY-2nd'
+        rank: '14'
       },
       {
         name: 'E.A. Chamuthu Megha Malhara Edirisooriya',
@@ -168,8 +159,7 @@ new Vue({
         userId: '100148900',
         tasks: '15',
         favourite: 'Design',
-        rank: '9',
-        awards: 'Test5|9-11'
+        rank: '9'
       },
       {
         name: 'T. Didula Dinoj Pieris',
@@ -199,8 +189,7 @@ new Vue({
         userId: '110418733',
         tasks: '6',
         favourite: 'Design',
-        rank: '11',
-        awards: 'Motion-Graphics-2D|10-11 Test3|9-11'
+        rank: '11'
       },
       {
         name: 'K.A. Samiru Thisaraka De Silva',
@@ -220,8 +209,7 @@ new Vue({
         userId: '110427637',
         tasks: '7',
         favourite: 'Code/Design',
-        rank: '5',
-        awards: 'Motion-Grphics-3D|10-11 Test2|9-11 Test4|9-11'
+        rank: '5'
       },
       {
         name: 'Senura Danitha Ratnayake',
@@ -231,8 +219,7 @@ new Vue({
         userId: '061142574',
         tasks: '0',
         favourite: '---',
-        rank: '20',
-        awards: 'Test2|6-8 Test5|6-8'
+        rank: '20'
       },
       {
         name: 'Nithika Senaweera',
@@ -272,8 +259,7 @@ new Vue({
         userId: '100944124',
         tasks: '5',
         favourite: 'All Rounder',
-        rank: '17',
-        awards: 'Final-Test|9-11'
+        rank: '17'
       },
       {
         name: 'Dulaj Bandara Weerakoon',
@@ -293,8 +279,7 @@ new Vue({
         userId: '080119696',
         tasks: '3',
         favourite: 'Design',
-        rank: '18',
-        awards: 'Test3|6-8 Final-Test|6-8'
+        rank: '18'
       },
       {
         name: 'L. Gothira Sathnindu Mendis',
@@ -304,8 +289,7 @@ new Vue({
         userId: '090930522',
         tasks: '17',
         favourite: 'Explore',
-        rank: '7',
-        awards: 'Final-Test|9-11'
+        rank: '7'
       },
       {
         name: 'J.A. Gamitha Kalsara Jayalath',
@@ -345,8 +329,7 @@ new Vue({
         userId: '1007826',
         tasks: '-',
         favourite: '---',
-        rank: '18',
-        awards: 'ARDOBERRY-1st'
+        rank: '18'
       },
       {
         name: 'Isuka Daniru Buddima Pussewela',
