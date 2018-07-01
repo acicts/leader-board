@@ -21,7 +21,9 @@
     <link rel="stylesheet" href="assets/animatecss/animate.min.css">
     <link rel="stylesheet" href="assets/theme/css/style.css">
     <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-
+    <style>
+    .demo { margin:0 auto; width:100%; height:100%;}
+    </style>
 
 
 </head>
@@ -92,7 +94,7 @@
         </nav>
     </section>
     <section class="header6 cid-qNTyxxH8hJ mbr-fullscreen mbr-parallax-background" id="header6-32">
-
+            <div class="demo">
 
 
         <div class="mbr-overlay" style="opacity: 0.2; background-color: rgb(0, 0, 0);">
@@ -117,8 +119,79 @@
                 <i class="mbri-down mbr-iconfont"></i>
             </a>
         </div>
+    </div>
     </section>
-
+    <section class="countdown1 cid-qNTkWjpGEY" id="countdown1-2p">
+            
+                    <div class="container ">
+            
+                        <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-2">
+                            <br>Winners are announced!</h2>
+                        <section class="section-table cid-qOg6pNZ7Vm" id="table1-40">
+                            <div class="container align-center">
+                                <h2 class="mbr-section-title pb-3 mbr-fonts-style display-5">
+                                    Winners of the BITS-2018
+                                </h2>
+                                <div class="container">
+                                    <div id="ranks" class="container">
+                                        <table class="table table-striped" cellspacing="0">
+            
+                                            <thead>
+                                                <tr class="table-heads">
+                                                    <th>
+                                                        Rank
+                                                    </th>
+                                                    <th>
+                                                        Winner
+                                                    </th>
+                                                    <th>
+                                                        Grade
+                                                    </th>
+                                                </tr>
+                                            </thead>
+            
+                                            <tbody>
+                                                <tr v-repeat="tests | filterBy search | orderBy sortKey reverse">
+                                                    <td class="body-item mbr-fonts-style display-7">Winner of the BITS-2018</td>
+                                                    <td class="body-item mbr-fonts-style display-7">L. Gothira Sathnindu Mendis</td>
+                                                    <td class="body-item mbr-fonts-style display-7">9</td>
+                                                </tr>
+                                                <tr v-repeat="tests | filterBy search | orderBy sortKey reverse">
+                                                    <td class="body-item mbr-fonts-style display-7">2nd Place</td>
+                                                    <td class="body-item mbr-fonts-style display-7">Chamod Nilushanka Perera
+                                                    </td>
+                                                    <td class="body-item mbr-fonts-style display-7">11
+                                                    </td>
+                                                </tr>
+                                                <tr v-repeat="tests | filterBy search | orderBy sortKey reverse">
+                                                    <td class="body-item mbr-fonts-style display-7">3rd Place</td>
+                                                    <td class="body-item mbr-fonts-style display-7">Heliya Nithira Suriya Bandara
+                                                    </td>
+                                                    <td class="body-item mbr-fonts-style display-7">11
+                                                    </td>
+                                                </tr>
+                                                <tr v-repeat="tests | filterBy search | orderBy sortKey reverse">
+                                                    <td class="body-item mbr-fonts-style display-7">Finalists</td>
+                                                    <td class="body-item mbr-fonts-style display-7">Inuka Sanudaya Batawala
+                                                        <br>Benul Chenuka Wijwrathne
+                                                    </td>
+                                                    <td class="body-item mbr-fonts-style display-7">7
+                                                        <br>11
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <h3 class="mbr-section-subtitle mbr-fonts-style display-6">Congratulations winners! Side winners and event winners will be announced on the BITS awards ceremony.
+                                        For more details visit to Leaderboards page and Final Leaderboards Spreadsheet.
+                                    </h3>
+                                </div>
+                            </div>
+                    </div>
+                    <br>
+                    </div>
+                    </section>
+    <script src="jquery.fireworks.js"></script>
     <section class="counters1 counters cid-qOfpSaEkz8" id="counters1-36">
 
 
@@ -200,54 +273,57 @@
             </div>
         </div>
     </section>
-
+    
     <section class="section-table cid-qOg6pNZ7Vm" id="table1-38">
-        <div class="container align-center">
-            <h2 class="mbr-section-title pb-3 mbr-fonts-style display-2">
-                Leaderboards
-            </h2>
-            <h3 class="mbr-section-subtitle pb-5 mbr-fonts-style display-5">
-                Competitors who have participate in BITS</h3>
+        
+            <div class="container align-center">
+                <h2 class="mbr-section-title pb-3 mbr-fonts-style display-2">
+                    Leaderboards
+                </h2>
+                <h3 class="mbr-section-subtitle pb-5 mbr-fonts-style display-5">
+                    Competitors who have participate in BITS</h3>
 
 
 
 
-            <div class="container">
-                <div id="demo" class="container">
-                    <input v-model="search" class="form-control" placeholder="Filter users by name">
-                    <table class="table table-striped" cellspacing="0">
+                <div class="container">
+                    <div id="demo" class="container">
+                        <input v-model="search" class="form-control" placeholder="Filter users by name">
+                        <table class="table table-striped" cellspacing="0">
 
-                        <thead>
-                            <tr class="table-heads">
-                                <th v-repeat="column: columns">
-                                    <a href="#" v-on="click: sortBy(column)" v-class="active: sortKey == column">
-                                        {{ column | capitalize }}
-                                    </a>
-                                </th>
-                            </tr>
-                        </thead>
+                            <thead>
+                                <tr class="table-heads">
+                                    <th v-repeat="column: columns">
+                                        <a href="#" v-on="click: sortBy(column)" v-class="active: sortKey == column">
+                                            {{ column | capitalize }}
+                                        </a>
+                                    </th>
+                                </tr>
+                            </thead>
 
-                        <tbody>
+                            <tbody>
 
-                            <tr v-repeat="users | filterBy search | orderBy sortKey reverse">
-                                <td class="body-item mbr-fonts-style display-7">{{ name }}</td>
-                                <td class="body-item mbr-fonts-style display-7">{{ grade }}</td>
-                                <!--td class="body-item mbr-fonts-style display-7">{{ total }}</td>
+                                <tr v-repeat="users | filterBy search | orderBy sortKey reverse">
+                                    <td class="body-item mbr-fonts-style display-7">{{ name }}</td>
+                                    <td class="body-item mbr-fonts-style display-7">{{ grade }}</td>
+                                    <!--td class="body-item mbr-fonts-style display-7">{{ total }}</td>
                                 <td class="body-item mbr-fonts-style display-7">{{ points }}</td>
                                 <td class="body-item mbr-fonts-style display-7">{{ tasks }}</td>
                                 <td class="body-item mbr-fonts-style display-7">{{ favourite }}</td-->
-                                <td class="body-item mbr-fonts-style display-7">{{ rank }}</td>
-                            </tr>
-                        </tbody>
-
-
-                        <tr>
-                    </table>
+                                    <td class="body-item mbr-fonts-style display-7">{{ rank }}</td>
+                                </tr>
+                            </tbody>
+                            <tr>
+                        </table>
+                    </div>
                 </div>
-
             </div>
-        </div>
-        </div>
+        
+        <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="jquery.fireworks.js"></script>
+        <script>
+        $('.demo').fireworks({ sound: true, opacity: 0.2, width: '100%', height: '100%' });
+        </script>
     </section>
 
     <section class="section-table cid-qOg6pNZ7Vm" id="table1-40">
@@ -499,16 +575,16 @@
     <section class="mbr-section article content1 cid-qNHD9vCC9X" id="content1-3w">
         <div class="container">
             <div class="media-container-row">
-                <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7"> Competition is finished. Winners are announced.
-                    We used a fair method on choosing the winners. Decision of the BITS OC will be the final.
+                <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7"> Competition is finished. Winners are announced. We used a fair method on choosing the winners. Decision of
+                    the BITS OC will be the final.
                     <br>
-                    <a href="https://docs.google.com/spreadsheets/d/1bZMOJTE-qeGazaEwj_aoOsVINdLsz7XYW7bX2YtEmNc/edit?usp=sharing">How we choosed winners? Click here to see.</a><br> Please make sure that your name
-                    is correct as all the ceritificates and medals will be printed as for it. If a name is incorrect, please
-                    inform the BITS organizing commitee before 10<sup>th</sup> of July through Contacts, Emails</div>
+                    <a href="https://docs.google.com/spreadsheets/d/1bZMOJTE-qeGazaEwj_aoOsVINdLsz7XYW7bX2YtEmNc/edit?usp=sharing">How we choosed winners? Click here to see.</a>
+                    <br> Please make sure that your name is correct as all the ceritificates and medals will be printed as for
+                    it. If a name is incorrect, please inform the BITS organizing commitee before 10
+                    <sup>th</sup> of July through Contacts, Emails</div>
             </div>
         </div>
     </section>
-
     <section class="footer4 cid-qPm9A1esga" id="footer4-3e">
 
         <div class="container">
@@ -603,6 +679,7 @@
     </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/0.12.16/vue.min.js  "></script>
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="main.js"></script>
     <script src="assets/web/assets/jquery/jquery.min.js"></script>
     <script src="assets/popper/popper.min.js"></script>
