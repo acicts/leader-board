@@ -4,7 +4,7 @@ new Vue({
   data: {
     sortKey: 'rank',
 
-    reverse: true,
+    reverse: false,
 
     search: '',
 
