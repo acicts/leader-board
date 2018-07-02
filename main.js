@@ -2,7 +2,7 @@ new Vue({
   el: '#demo',
 
   data: {
-    sortKey: 'rank',
+    sortKey: 'name',
 
     reverse: false,
 
