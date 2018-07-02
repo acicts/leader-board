@@ -2,7 +2,7 @@ new Vue({
   el: '#demo',
 
   data: {
-    sortKey: 'name',
+    sortKey: '',
 
     reverse: false,
 
