@@ -41,6 +41,11 @@ new Vue({
         rank: '6'
       },
       {
+        name: 'K.W. Sanithu Hasmal Kudaliyana',
+        grade: 8,
+        rank: '7'
+      },
+      {
         name: 'W.M. Janiru Damsath Bandara',
         grade: 7,
         rank: '8'
@@ -131,11 +136,7 @@ new Vue({
       {
         name: 'Dulaj Bandara Weerakoon',
         grade: 11
-      },
-      {
-        name: 'K.W. Sanithu Hasmal Kudaliyana',
-        grade: 8
-      },
+      }, 
       {
         name: 'J.A. Gamitha Kalsara Jayalath',
         grade: 9
